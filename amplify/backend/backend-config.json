@@ -1,0 +1,100 @@
+{
+  "api": {
+    "createFaceLivenessSessionAug": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "createFaceLivenessSessionAug"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "getFaceLivenessSessionResultsAug"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {
+    "amazonamplifyaug93de25bb93de25bb": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "createFaceLivenessSessionAug": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "getFaceLivenessSessionResultsAug": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_createFaceLivenessSessionAug_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createFaceLivenessSessionAug"
+        }
+      ]
+    },
+    "AMPLIFY_function_createFaceLivenessSessionAug_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createFaceLivenessSessionAug"
+        }
+      ]
+    },
+    "AMPLIFY_function_getFaceLivenessSessionResultsAug_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getFaceLivenessSessionResultsAug"
+        }
+      ]
+    },
+    "AMPLIFY_function_getFaceLivenessSessionResultsAug_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getFaceLivenessSessionResultsAug"
+        }
+      ]
+    }
+  }
+}

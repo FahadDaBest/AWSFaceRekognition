@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amazonamplifyaug-dev-112501-authRole",
+      "UnauthRoleArn": "arn:aws:iam::523531279860:role/amplify-amazonamplifyaug-dev-112501-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::523531279860:role/amplify-amazonamplifyaug-dev-112501-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amazonamplifyaug-dev-112501-deployment",
+      "UnauthRoleName": "amplify-amazonamplifyaug-dev-112501-unauthRole",
+      "StackName": "amplify-amazonamplifyaug-dev-112501",
+      "StackId": "arn:aws:cloudformation:us-east-1:523531279860:stack/amplify-amazonamplifyaug-dev-112501/b9fd5560-354f-11ee-8008-0aa2d4b62dcf",
+      "AmplifyAppId": "d3w0ahgpntb7tl"
+    },
+    "categories": {
+      "function": {
+        "createFaceLivenessSessionAug": {
+          "deploymentBucketName": "amplify-amazonamplifyaug-dev-112501-deployment",
+          "s3Key": "amplify-builds/createFaceLivenessSessionAug-484f766536506858546a-build.zip"
+        },
+        "getFaceLivenessSessionResultsAug": {
+          "deploymentBucketName": "amplify-amazonamplifyaug-dev-112501-deployment",
+          "s3Key": "amplify-builds/getFaceLivenessSessionResultsAug-66496e323463586e5146-build.zip"
+        }
+      },
+      "api": {
+        "createFaceLivenessSessionAug": {}
+      },
+      "auth": {
+        "amazonamplifyaug93de25bb93de25bb": {}
+      }
+    }
+  }
+}

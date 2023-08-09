@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/createFaceLivenessSessionAug": {
+      "name": "/createFaceLivenessSessionAug",
+      "lambdaFunction": "createFaceLivenessSessionAug",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/getFaceLivenessSessionResultsAug": {
+      "name": "/getFaceLivenessSessionResultsAug",
+      "lambdaFunction": "getFaceLivenessSessionResultsAug",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
