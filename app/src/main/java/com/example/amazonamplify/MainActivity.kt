@@ -15,6 +15,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
 import com.example.amazonamplify.ui.theme.AmazonAmplifyTheme
+import com.example.amazonamplify.ui.theme.CameraPermissionWrapperComposable
 import com.example.amazonamplify.ui.theme.FaceLivenessScreen
 import kotlinx.coroutines.launch
 
@@ -22,32 +23,30 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        lifecycleScope.launch {
-            // Get a session ID:
-        }
         setContent {
             AmazonAmplifyTheme {
-
-                Scaffold (modifier = Modifier.fillMaxSize()){ paddingValues ->
+                Scaffold(modifier = Modifier.fillMaxSize()) { paddingValues ->
+                    CameraPermissionWrapperComposable {
                         FaceLivenessScreen(paddingValues)
                     }
                 }
             }
         }
-}
+    }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+    @Composable
+    fun Greeting(name: String, modifier: Modifier = Modifier) {
+        Text(
+            text = "Hello $name!",
+            modifier = modifier
+        )
+    }
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    AmazonAmplifyTheme {
-        Greeting("Android")
+    @Preview(showBackground = true)
+    @Composable
+    fun GreetingPreview() {
+        AmazonAmplifyTheme {
+            Greeting("Android")
+        }
     }
 }
