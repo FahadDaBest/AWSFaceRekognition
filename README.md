@@ -1,9 +1,9 @@
 # AWSFaceRekognition
 Demo app for aws face rekognition
 
-Detecting face liveness: https://docs.aws.amazon.com/rekognition/latest/dg/face-liveness.html <br>
-CompareFaces: https://docs.aws.amazon.com/rekognition/latest/APIReference/API_CompareFaces.html
-Themeing issues: https://ui.docs.amplify.aws/android/connected-components/liveness/customization
+**Detecting face liveness:** https://docs.aws.amazon.com/rekognition/latest/dg/face-liveness.html <br>
+**CompareFaces:** https://docs.aws.amazon.com/rekognition/latest/APIReference/API_CompareFaces.html <br>
+**Themeing issues:** https://ui.docs.amplify.aws/android/connected-components/liveness/customization <br>
 
 Detecting face liveness usecases: 
 - By itself: Guard against bots using the platform as it requires real user input
