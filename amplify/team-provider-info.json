@@ -19,7 +19,7 @@
         },
         "getFaceLivenessSessionResultsAug": {
           "deploymentBucketName": "amplify-amazonamplifyaug-dev-112501-deployment",
-          "s3Key": "amplify-builds/getFaceLivenessSessionResultsAug-66496e323463586e5146-build.zip"
+          "s3Key": "amplify-builds/getFaceLivenessSessionResultsAug-33306e2f63586e354b6e-build.zip"
         }
       },
       "api": {
@@ -27,6 +27,12 @@
       },
       "auth": {
         "amazonamplifyaug93de25bb93de25bb": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3w0ahgpntb7tl",
+          "type": "manual"
+        }
       }
     }
   }

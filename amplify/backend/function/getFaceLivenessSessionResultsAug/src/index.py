@@ -18,8 +18,10 @@ def get_session_results(session_id):
 def handler(event, context):
     print('received event:')
     print(event)
+    print(event.get("body"))
+    session_id = json.loads(event.get("body"))["SessionId"]
 
-    res = get_session_results(event.get("Sessionid"))
+    res = get_session_results(session_id)
 
     return {
         'statusCode': 200,

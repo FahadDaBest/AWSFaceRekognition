@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AmazonAmplifyTheme {
 
-                Scaffold (modifier = Modifier.fillMaxSize().padding(top = 20.dp)){ paddingValues ->
+                Scaffold (modifier = Modifier.fillMaxSize()){ paddingValues ->
                         FaceLivenessScreen(paddingValues)
                     }
                 }
