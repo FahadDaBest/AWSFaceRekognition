@@ -9,9 +9,9 @@ Detecting face liveness usecases:
 - Can be coupled with <b>Compare Faces</b> by storing previous liveliness scan (account creation) to ensure the same user is requesting account help (account recovery)
 
 Themeing Issues (https://ui.docs.amplify.aws/android/connected-components/liveness/customization): 
-- Looking through customization docs the sliding color screen is not optional and is used as part of the verification - Isn't the best experience.
-- Start view screen is personalizable however along with the theming.
-- I would like to see the oval screen be more customizable as well to remove strange design choices such as the recording button on the oval screen.
+- Looking through customization docs the sliding color screen is not optional and is used as part of the verification - It isn't the best experience.
+- However the start view screen is optionable and we can add our own alongside theming for the facial scan screen.
+- Would like the oval screen be more customizable - remove strange design choices such as the recording button on top left corner.
 
 CompareFaces usecases:
 - Needs a base profile to compare with for persona for future checks
