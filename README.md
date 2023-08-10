@@ -21,5 +21,4 @@ CompareFaces usecases:
 
 The example shown below is for Detecting Face Liveness does not have any theming and does not include Compare Faces: 
 
-https://github.com/FahadDaBest/AWSFaceRekognition/assets/135153963/9296f138-3e8f-4c93-a52c-4a179755e383
-
+https://github.com/FahadDaBest/AWSFaceRekognition/assets/135153963/6a4e9dbd-c896-4a40-aa09-73c2e3cea1a9
