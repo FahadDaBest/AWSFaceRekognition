@@ -16,8 +16,8 @@ Themeing Issues in FaceRekognition:
 
 CompareFaces usecases:
 - Needs a base profile to compare with for persona for future checks
-- ID verification needs secondary layer to be verified as authentic with the amazon sdk (AWS doesn't include ID verification like persona)
-- Docs state that compare faces would require a secondary human authentication to avoid false negatives - however we can set a similarity thresholds w/ usecase of auto-rejections 
+- ID verification needs secondary layer to be verified as authentic before comparing faces with the aws (AWS doesn't include ID verification like persona)
+- Docs state that compare faces would require a secondary human authentication to avoid false negatives - however we can set a similarity thresholds for auto-rejections and require false-negative users to file a support ticket
 
 The example shown below is for Detecting Face Liveness does not have any theming and does not include Compare Faces: 
 
