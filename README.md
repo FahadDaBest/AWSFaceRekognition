@@ -1,6 +1,6 @@
 # AWSFaceRekognition
 Demo app for aws face rekognition
-# Link to Demo App: https://drive.google.com/file/d/1TtiSX2dJzlktrmUF5b55fM2OrocURvZ4/view?usp=sharing
+#### Link to Demo App: https://drive.google.com/file/d/1TtiSX2dJzlktrmUF5b55fM2OrocURvZ4/view?usp=sharing
 
 **Detecting face liveness:** https://docs.aws.amazon.com/rekognition/latest/dg/face-liveness.html <br>
 **CompareFaces:** https://docs.aws.amazon.com/rekognition/latest/APIReference/API_CompareFaces.html <br>
